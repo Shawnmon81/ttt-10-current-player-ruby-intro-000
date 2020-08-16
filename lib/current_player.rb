@@ -11,13 +11,13 @@ def turn_count(banana)
   return  counter
 end
 
-#def current_player(board)
-    #if turn_count(board) % 2 == 0
-    #return "X"
-  #else
-   #return "O"
- #end
- #end
+def current_player(board)
+    if turn_count(board) % 2 == 0
+    return "X"
+  else
+   return "O"
+ end
+ end
 
-  return current_player(board)
-{current_player = turn_count % 2 = 0 ? "X" : "O"}
+  #return current_player(board)
+#{current_player = turn_count % 2 = 0 ? "X" : "O"}
